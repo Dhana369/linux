@@ -51,6 +51,12 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
+## updating packages automatically
+```
+sudo apt-get install unattended-upgrades
+sudo dpkg-reconfigure -plow unattended-upgrades
+```
+
 #### Creating grader User:
   ```
   sudo adduser grader
